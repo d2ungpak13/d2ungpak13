@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400&amp;subset=korean" rel="stylesheet">
+    <title></title>
+    <style>
+      body{
+      	padding-top: 84px;
+      	font-family: 'Noto Sans KR', sans-serif;
+      	margin-bottom: 100px;
+        background-color:#3edbd4;
+      }
+
+
+      a.menu_link{
+      	color:black;
+      	text-decoration: none;
+      	font-size: 14px;
+      	font-weight: 300;
+      }
+      a.menu_link:hover{
+      	/*text-decoration: underline;*/
+      	border-bottom: 1px dashed black;
+      	padding-bottom: 6px;
+      }
+
+      .menu_container{
+      	position: fixed;
+      	top:0px;
+      	left:0px;
+      	width: 100%;
+      }
+      .menu{
+      	position: fixed;
+      	top:0px;
+      	right:0px;
+      	margin-top:12px;
+      	margin-right:12px;
+      }
+      .main_link{
+      	display: inline-block;
+      	margin:10px;
+      }
+      .top{
+        width:90%;
+        height:90%;
+        margin-left:50px;
+        margin-right:50px;
+      }
+      .pro{
+        margin-left:220px;
+        margin-right:-220px;
+      }
+      .portfolio img{
+        width:25%;
+        height:25%;
+      }
+
+      ul{
+        list-style-type:none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <body style="width:100%;">
+      <div class="menu_container">
+        <div class="logo">
+          <a href="#top">
+            <img src="logo.png" class="logo_img">
+          </a>
+        </div>
+        <div class="menu">
+        <div class="main_link">
+          <a href=#pro1 class="menu_link" title="about_me">About me</a>
+        </div>
+
+          <div class="main_link">
+            <a href="#pro2" class="menu_link" title="portfolio">Portfolio</a>
+          </div>
+
+          <div class="main_link">
+            <a href="#pro3" class="menu_link" title="contact">contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div  id="pro1">
+        <img src="main_img.png" class="top">
+      </div>
+
+      <div class="pro" id="pro2">
+        <ul class="portfolio">
+          <a href="index_21661018.html"><img src="pro1.png" onmouseover="this.src='pro1-1.png'" onmouseout="this.src='pro1.png'" class="por_img" width="300"></a>
+          <a href="index5_21661018.html"><img src="pro2.png" onmouseover="this.src='pro2-1.png'" onmouseout="this.src='pro2.png'" class="por_img" width="300"></a>
+          <a href="index002.html"><img src="pro3.png" onmouseover="this.src='pro3-1.png'" onmouseout="this.src='pro3.png'" class="por_img" width="300"></a>
+          <a href="index001.html"><img src="pro4.png" onmouseover="this.src='pro4-1.png'" onmouseout="this.src='pro4.png'" class="por_img" width="300"></a>
+          <a href="index8_21661018.html"><img src="pro5.png" onmouseover="this.src='pro5-1.png'" onmouseout="this.src='pro5.png'" class="por_img" width="300"></a>
+          <a href="index11_21661018.html"><img src="pro6.png" onmouseover="this.src='pro6-1.png'" onmouseout="this.src='pro6.png'" class="por_img" width="300"></a>
+        </ul>
+      </div>
+
+        <div class="pro" id="pro3">
+          <img src="contact_me.png">
+          <ul id="contact_menu">
+            <h2>Address</h2>
+            <li>Gyeonggi-do Uiwang</li>
+            <h2>E-mail</h2>
+            <li>d2ungpak13@naver.com</li>
+            <h2>phone</h2>
+            <li>+82 10 3350 8616</li>
+          </ul>
+          <ul class="contact_menu2">
+            <h2>Question</h2>
+            <li class="col2">
+              <textarea cols="35"rows="5"></textarea>
+              <img src="send.png">
+            </li>
+          </ul>
+        </div>
+
+
+  </body>
+</html>
