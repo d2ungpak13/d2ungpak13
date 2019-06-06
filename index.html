@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400&amp;subset=korean" rel="stylesheet">
+    <title></title>
+    <style>
+      body{
+      	padding-top: 84px;
+      	font-family: 'Noto Sans KR', sans-serif;
+      	margin-bottom: 100px;
+        background-color:#3edbd4;
+      }
+
+
+      a.menu_link{
+      	color:black;
+      	text-decoration: none;
+      	font-size: 14px;
+      	font-weight: 300;
+      }
+      a.menu_link:hover{
+      	/*text-decoration: underline;*/
+      	border-bottom: 1px dashed black;
+      	padding-bottom: 6px;
+      }
+
+      .menu_container{
+      	position: fixed;
+      	top:0px;
+      	left:0px;
+      	width: 100%;
+        z-index: 500;
+      }
+      .menu{
+      	position: fixed;
+      	top:0px;
+      	right:0px;
+      	margin-top:12px;
+      	margin-right:12px;
+        
+      }
+      .main_link{
+      	display: inline-block;
+      	margin:10px;
+      }
+      .top{
+        width:90%;
+        height:90%;
+        margin-left:50px;
+        margin-right:50px;
+      }
+/*      .pro{
+        margin-left:220px;
+        margin-right:-220px;
+      }*/
+      #pro2{
+        margin-top: 140px;
+        margin-bottom: 140px;
+        z-index: 300;
+      }
+      .contact_img{
+        margin-left:25px;
+      }
+      .portfolio img{
+        width:25%;
+        height:25%;
+      }
+
+      .por_item{
+        width:100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+      }
+      .por_item_div{
+        position: relative;
+        width: 33%;
+        height:30vh;
+        min-height: 400px;
+        display: inline-block;
+      }
+      .por_item_img{
+        position: relative;
+        object-fit: cover;
+        width:100%;
+        height:100%;
+        margin:0px auto;
+      }
+      .por_item_img:hover{
+        opacity: 0;
+      }
+      .por_item_txt{
+        position: relative;
+        width:100%;
+        height: 100%;
+        margin:0px auto;
+        background: pink;
+      }
+      .por_item_p_container{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 800;
+        color: #666666;
+      }
+      ul{
+        list-style-type:none;
+      }
+      li{
+        display: inline-block;
+        margin:32px;
+      }
+      @media screen and (max-width: 1000px) {
+        .por_item_div{
+          width: 49%;
+          min-height: 300px;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        .por_item_div{
+          width: 100%;
+          min-height: 400px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <body style="width:100%;">
+      <div class="menu_container">
+        <div class="logo">
+          <a href="#top">
+            <img src="logo.png" class="logo_img">
+          </a>
+        </div>
+        <div class="menu">
+        <div class="main_link">
+          <a href=#pro1 class="menu_link" title="about_me">About me</a>
+        </div>
+
+          <div class="main_link">
+            <a href="#pro2" class="menu_link" title="portfolio">Portfolio</a>
+          </div>
+
+          <div class="main_link">
+            <a href="#pro3" class="menu_link" title="contact">contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div  id="pro1">
+        <img src="main_img.png" class="top">
+      </div>
+
+
+      <div class="pro" id="pro2">
+
+          <div class="por_item_div" height=window.innerWidth*0.33 >
+            <a href="index_21661018.html">
+              <div class="por_item">
+                <div class="por_item_txt">
+                  <div class="por_item_p_container">
+                    About me
+                  </div>
+                </div>
+              </div>
+              <div class="por_item">
+                <img src="pro1.png" class="por_item_img" >
+              </div>
+            </a>
+          </div>
+          <div class="por_item_div" height=window.innerWidth*0.33 >
+            <a href="index5_21661018.html">
+              <div class="por_item">
+                <div class="por_item_txt">
+                  <div class="por_item_p_container">
+                    Gallery
+                  </div>
+                </div>
+              </div>
+              <div class="por_item">
+                <img src="pro2.png" class="por_item_img" >
+              </div>
+            </a>
+          </div>
+          <div class="por_item_div" height=window.innerWidth*0.33 >
+            <a href="index002.html">
+              <div class="por_item">
+                <div class="por_item_txt">
+                  <div class="por_item_p_container">
+                    Zoo
+                  </div>
+                </div>
+              </div>
+              <div class="por_item">
+                <img src="pro3.png" class="por_item_img" >
+              </div>
+            </a>
+          </div>
+          <div class="por_item_div" height=window.innerWidth*0.33 >
+            <a href="index001.html">
+              <div class="por_item">
+                <div class="por_item_txt">
+                  <div class="por_item_p_container">
+                    Midterm
+                  </div>
+                </div>
+              </div>
+              <div class="por_item">
+                <img src="pro4.png" class="por_item_img" >
+              </div>
+            </a>
+          </div>
+          <div class="por_item_div" height=window.innerWidth*0.33 >
+            <a href="index8_21661018.html">
+              <div class="por_item">
+                <div class="por_item_txt">
+                  <div class="por_item_p_container">
+                    Login
+                  </div>
+                </div>
+              </div>
+              <div class="por_item">
+                <img src="pro5.png" class="por_item_img" >
+              </div>
+            </a>
+          </div>
+          <div class="por_item_div" height=window.innerWidth*0.33 >
+            <a href="index11_21661018.html">
+              <div class="por_item">
+                <div class="por_item_txt">
+                  <div class="por_item_p_container">
+                    Website Design
+                  </div>
+                </div>
+              </div>
+              <div class="por_item">
+                <img src="pro6.png" class="por_item_img" >
+              </div>
+            </a>
+          </div>
+      </div>
+
+        <div class="pro" id="pro3">
+          <img src="contact_me.png" class="contact_img">
+          <ul id="contact_menu">
+            <li>
+            <h2>Address</h2>
+            Gyeonggi-do Uiwang</li>
+            <li>
+            <h2>E-mail</h2>
+            d2ungpak13@naver.com</li>
+            <li>
+            <h2>phone</h2>
+            +82 10 3350 8616</li>
+          </ul>
+          <ul class="contact_menu2">
+          <li class="col2">
+            <h2>Question</h2>
+            
+              <textarea cols="35" rows="5"></textarea>
+              <img src="send.png">
+            </li>
+          </ul>
+        </div>
+
+
+  </body>
+</html>
