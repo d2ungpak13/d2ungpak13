@@ -1,0 +1,88 @@
+body{
+	padding-top: 84px;
+	font-family: 'Noto Sans KR', sans-serif;
+	margin-bottom: 100px;
+}
+
+a.menu_link{
+	color:black;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 300;
+}
+a.menu_link:hover{
+	/*text-decoration: underline;*/
+	border-bottom: 1px dashed black;
+	padding-bottom: 6px;
+}
+.row {
+  text-align: center;
+  width: 82%;
+  margin:0px auto;
+  border-bottom: 1px dashed black;
+  margin-top: 42px;
+  padding-bottom: 42px;
+}
+.sub{
+	text-align: center;
+  width: 82%;
+  margin:0px auto;
+  border-bottom: 1px dashed black;
+  margin-top: 42px;
+  padding-bottom: 42px;
+}
+
+.my_tattoo_container{
+	display: inline-block;
+	width: 32%;
+}
+
+.my_tattoo_img{
+	width: 100%;
+}
+.sub_img{
+	width: 30%;
+	margin:0px auto;
+}
+.imgs{
+	display: inline-block;
+}
+.row_img{
+	width: 20%;
+	margin: 0px auto;
+}
+.menu_container{
+	position: fixed;
+	top:0px;
+	left:0px;
+	width: 100%;
+}
+.menu{
+	position: fixed;
+	top:0px;
+	right:0px;
+	margin-top:12px;
+	margin-right:12px;
+}
+.my_tattoo_link{
+	display: inline-block;
+	margin:10px;
+}
+.logo{
+	height: 70px;
+	margin-top:12px;
+	margin-left:12px;
+}
+.logo_img{
+	height: 100%;
+}
+.main_text{
+	width: 72%;
+	margin: 0px auto;
+	margin-top:24px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 20px;
+	font-weight: 300;
+
+}
